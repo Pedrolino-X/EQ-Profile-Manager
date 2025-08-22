@@ -66,7 +66,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **多语言**: 支持多种语言，并允许用户添加自己的语言包。
 - **开发者友好**: 在源码版本中，提供了“编辑脚本”和“查看日志”等调试工具。
 
-### 🚀 如何使用 (普通用户)
+### 🚀 如何使用 (用户)
 
 1.  **下载**: 前往 **[Releases 页面](https://github.com/Pedrolino-X/EQ-Profile-Manager/releases)** 下载最新的 `.zip` 文件。
 2.  **解压**: 将压缩包解压到您选择的任意位置。
@@ -91,3 +91,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### 📜 许可证
 
 本项目遵循 MIT 许可证 - 详情请参阅 [LICENSE](LICENSE) 文件。
+
