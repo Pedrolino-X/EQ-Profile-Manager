@@ -16,7 +16,7 @@ A lightweight, tray-based utility for quickly switching Equalizer APO profiles.
 
 ## 🚀 How to Use (for Users)
 
-1.  **Download**: Go to the [Releases page](https://github.com/your-username/your-repo-name/releases) and download the latest `.zip` file.
+1.  **Download**: Go to the [Releases page](https://github.com/Pedrolino-X/EQ-Profile-Manager/releases) and download the latest `.zip` file.
 2.  **Extract**: Unzip the file to a location of your choice.
 3.  **Configure (Important!)**:
     - Open the `settings.ini` file with a text editor.
@@ -39,3 +39,4 @@ A lightweight, tray-based utility for quickly switching Equalizer APO profiles.
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
