@@ -30,8 +30,8 @@
 
 1.  **Download**: Go to the **[Releases page](https://github.com/Pedrolino-X/EQ-Profile-Manager/releases)** and download the latest `.zip` file.
 2.  **Extract**: Unzip the file to a location of your choice.
-3.  **Configure (Important!)**:
-    - Open the `settings.ini` file with a text editor.
+3.  **Configure**:
+    - Edit the `settings.ini` file.
     - If you installed Equalizer APO to a **non-default location**, you must update the `EqualizerApoConfigPath` to point to your `config.txt` file.
 4.  **Add Profiles**: Place your Equalizer APO `.txt` profile files into the `EQ_Presets` folder.
 5.  **Run**: Double-click `EQ_Manager.exe`. The program will run in your system tray.
@@ -70,8 +70,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 1.  **下载**: 前往 **[Releases 页面](https://github.com/Pedrolino-X/EQ-Profile-Manager/releases)** 下载最新的 `.zip` 文件。
 2.  **解压**: 将压缩包解压到您选择的任意位置。
-3.  **配置 (重要!)**:
-    - 用文本编辑器打开 `settings.ini` 文件。
+3.  **配置**:
+    - 编辑 `settings.ini` 文件。
     - 如果您将 Equalizer APO 安装到了**非默认路径**，您必须将 `EqualizerApoConfigPath` 的值修改为您电脑上 `config.txt` 文件的实际路径。
 4.  **添加配置**: 将您的 Equalizer APO `.txt` 配置文件放入 `EQ_Presets` 文件夹内。
 5.  **运行**: 双击 `EQ_Manager.exe`。程序将在您的系统托盘区运行。
@@ -91,4 +91,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ### 📜 许可证
 
 本项目遵循 MIT 许可证 - 详情请参阅 [LICENSE](LICENSE) 文件。
+
 
