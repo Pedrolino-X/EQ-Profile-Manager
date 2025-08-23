@@ -1,5 +1,5 @@
-﻿; ======================================================================================================================
-; == EQ 配置管理器 (AutoHotkey v1 - 最终产品版 v2) ==
+; ======================================================================================================================
+; == EQ 配置管理器 (AutoHotkey v1) ==
 ; ======================================================================================================================
 
 #Persistent
@@ -99,11 +99,13 @@ BuildMenu:
         {
             Menu, Tray, Add, % lang.Menu_EQ_On, ToggleEQState
             Menu, Tray, Check, % lang.Menu_EQ_On
+            Menu, Tray, Default, % lang.Menu_EQ_On
         }
         else
         {
             Menu, Tray, Add, % lang.Menu_EQ_Off, ToggleEQState
             Menu, Tray, Uncheck, % lang.Menu_EQ_Off
+            Menu, Tray, Default, % lang.Menu_EQ_Off
         }
         Menu, Tray, Add
 
@@ -188,10 +190,7 @@ Return
 ; == 菜单动作与核心功能 ==
 ; ======================================================================================================================
 
-~LButton::
-    if (A_PriorHotKey = A_ThisHotKey and A_TimeSincePriorHotkey < 200)
-        Gosub, ToggleEQState
-Return
+
 
 ToggleLanguage:
     selectedLang := A_ThisMenuItem
